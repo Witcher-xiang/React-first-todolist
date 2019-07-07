@@ -1,24 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
+// 上个版本 使用的是class App extends React.Component
+// 只要是在这个return{}中 <>标签都是jsx的语法。想要让他运行就得引入react进行编译识别
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Hello World
+      <h1>朱存彬-赵靖洋-李夏曦</h1>
     </div>
   );
 }
