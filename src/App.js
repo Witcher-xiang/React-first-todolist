@@ -5,8 +5,6 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-      Hello World
-      <h1>朱存彬-赵靖洋-李夏曦</h1>
     </div>
   );
 }
